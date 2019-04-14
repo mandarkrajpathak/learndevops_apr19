@@ -1,1 +1,7 @@
 This is the first line for DevOps in Git
+
+Added lines  after first commit
+
+
+1234,
+14/09/2019
