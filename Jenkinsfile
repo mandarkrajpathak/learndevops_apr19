@@ -3,9 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        rmdir 20191019
-        mkdir 20191019
-        echo "Welcome Here!" > 20191019.txt
+        echo 'Welcome Here!'
 
       }
     }
@@ -13,7 +11,7 @@ pipeline {
   
   post { 
         always { 
-            echo 'I will always say Hello again!' > postbuild.txt
+            echo 'I will always say Hello again!'
         }
     }
 }
