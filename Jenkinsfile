@@ -6,7 +6,6 @@ pipeline {
         rmdir 20191019
         mkdir 20191019
         echo "Welcome Here!" > 20191019.txt
-        ls 
 
       }
     }
