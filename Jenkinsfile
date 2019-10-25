@@ -4,8 +4,7 @@ pipeline {
     stage('build') {
       steps {
         echo 'Welcome Here!'
-        echo Welcome Here!!! > 20191025.txt
-
+        echo get_current_time_date()
        }
       
     }
