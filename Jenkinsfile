@@ -4,7 +4,6 @@ pipeline {
     stage('build') {
       steps {
         echo 'Welcome Here!'
-        mkdir CarPro\Jenkins\
         echo Welcome Here!!! > 20191025.txt
 
        }
