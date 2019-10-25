@@ -4,7 +4,8 @@ pipeline {
     stage('build') {
       steps {
         echo 'Welcome Here!'
-        mkdir 'C:/Carpro/Temp/Test'
+        CD "C:/CarPro/Temp"
+        mkdir Test
       }
     }
   }
