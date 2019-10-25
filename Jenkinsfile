@@ -4,9 +4,7 @@ pipeline {
     stage('build') {
       steps {
         echo 'Welcome Here!'
-        echo get_current_time_date()
-       }
-      
+        }
     }
     
     stage('Example') {
