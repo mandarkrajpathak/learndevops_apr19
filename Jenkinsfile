@@ -4,9 +4,9 @@ pipeline {
     stage('build') {
       steps {
         echo 'Welcome Here!'
-        dir
-        ls
-      }
+       }
+      steps{dir}
+      steps{ls}
     }
   }
   
