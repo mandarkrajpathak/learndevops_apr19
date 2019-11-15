@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'Welcome Here!'
         bat """
-        mkdir TEST
+        mkdir C:\TEST
         """
         }
     }
