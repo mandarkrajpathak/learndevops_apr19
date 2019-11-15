@@ -4,7 +4,8 @@ pipeline {
     stage('build') {
       steps {
         echo 'Welcome Here!'
-        sh "ls"
+        var = "Mandark"
+sh "echo Hello ${var}"
         }
     }
     
