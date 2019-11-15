@@ -4,7 +4,7 @@ pipeline {
     stage('build') {
       steps {
         echo 'Welcome Here!'
-        ls -la
+        sh "mkdir -p output"
         }
     }
     
