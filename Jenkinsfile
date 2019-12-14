@@ -7,7 +7,7 @@ pipeline {
         bat """
         DIR       
         """
-        copy 'C:\\CarProInstallation\\' 'C:\\Users\\Jenkins\\.ssh\\workspace\\NewTestProject_master\\abc.txt'
+        copy 'C:\\Users\\Jenkins\\.ssh\\workspace\\NewTestProject_master\\abc.txt' 'C:\\CarProInstallation\\'
         }
     }
     
