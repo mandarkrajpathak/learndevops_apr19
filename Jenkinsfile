@@ -6,7 +6,7 @@ pipeline {
         echo 'Welcome Here!'
         bat """
         mkdir TEST1
-        copy dstFile: 'C:\\CarProInstallation\\', srcFile: 'C:\\Users\\Jenkins\\.ssh\\workspace\\NewTestProject_master'
+        copy dstFile: 'C:\\CarProInstallation', srcFile: 'C:\\Users\\Jenkins\\.ssh\\workspace\\NewTestProject_master'
         """
         }
     }
