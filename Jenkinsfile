@@ -6,8 +6,9 @@ pipeline {
         echo 'Welcome Here!'
         bat """
         DIR       
-        """
         copy 'C:\\Users\\Jenkins\\.ssh\\workspace\\NewTestProject_master\\abc.txt' 'C:\\CarProInstallation\\'
+        """
+        
         }
     }
     
