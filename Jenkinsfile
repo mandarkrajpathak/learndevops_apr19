@@ -1,5 +1,5 @@
 pipeline {
-  agent AWSCarpro
+  agent test
   stages {
     stage('build') {
       steps {
