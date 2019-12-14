@@ -5,9 +5,9 @@ pipeline {
       steps {
         echo 'Welcome Here!'
         bat """
-        PWD       
+        DIR       
         """
-        copy dstFile: 'C:\\CarProInstallation\\', srcFile: 'C:\\Users\\Jenkins\\.ssh\\workspace\\NewTestProject_master\\abc.txt'
+        copy 'C:\\CarProInstallation\\' 'C:\\Users\\Jenkins\\.ssh\\workspace\\NewTestProject_master\\abc.txt'
         }
     }
     
