@@ -8,6 +8,10 @@ pipeline {
         mkdir mandark    
         echo "This is random text" >> "C:\\Users\\Jenkins\\.ssh\\workspace\\NewTestProject_master\\mandark\\abc.txt"
         move "C:\\Users\\Jenkins\\.ssh\\workspace\\NewTestProject_master\\mandark" "C:\\CarProInstallation\\"
+        
+        mkdir mandark_new    
+        echo "This is random text" >> "C:\\Users\\Jenkins\\.ssh\\workspace\\NewTestProject_master\\mandark_new\\xyz.txt"
+        move "C:\\Users\\Jenkins\\.ssh\\workspace\\NewTestProject_master\\mandark_new" "C:\\CarProInstallation\\"
         """
         
         }
